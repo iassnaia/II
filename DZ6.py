@@ -14,7 +14,7 @@ def load():
     print("Тесты были успешно загружены")
 
 API_TOKEN = "6737709947:AAHq13bzIkVAtTTb1D0aNobROD_CyNTrAlM"
-bot = Si_BOT.PsysuperBot(API_TOKEN)
+bot = Si_BOT.psysuperbot(API_TOKEN)
 
 @bot.message_handler(commands=["start"])
 
