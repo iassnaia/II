@@ -2,7 +2,7 @@ import psysuperbot
 from random import *
 import json
 import requests
-films = []
+tests = []
 API_URL='https://7012.deeppavlov.ai/model'
 def save():
     with open("tests.json","w",encoding="utf-8") as fh:
@@ -20,7 +20,7 @@ bot = psysuperbot.PsysuperBot(API_TOKEN)
 @bot.message_handler(commands=["start"])
 
 def start_message(message):
-   tests.append("Депрессия")
+    tests.append("Депрессия")
     tests.append(" Невроз")
     tests.append("Тревожность")
     tests.append("Зависимость")
