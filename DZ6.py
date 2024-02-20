@@ -3,6 +3,7 @@ from random import *
 import json
 import requests
 tests = []
+API_URL = 'https://7012.deeppavlov.ai/model'
 def save():
     with open("tests.json","w",encoding="utf-8") as fh:
         fh.write(json.dumps(tests,ensure_ascii=False))
